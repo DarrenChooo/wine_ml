@@ -45,9 +45,10 @@ Accuracy: 0.8719
     weighted avg       0.87      0.87      0.87       320
 
 Decision Tree Confusion Matrix:
-Predicted:  Bad  Good
-Actual: Bad   255    18
-       Good    23    24
+
+    Predicted:    Bad  Good
+    Actual: Bad   255    18
+           Good    23    24
 
 
 ### Results (Random Forest Model)
@@ -64,9 +65,10 @@ Random Forest Accuracy: 0.9000
     weighted avg       0.89      0.90      0.89       320
 
 Random Forest Confusion Matrix:
-Predicted:  Bad  Good
-Actual: Bad   264     9
-       Good    23    24
+
+    Predicted:    Bad  Good
+    Actual: Bad   264     9
+           Good    23    24
 
 ### Conclusion
 - Accuracy: The Random Forest model has a higher accuracy as compared to the Decision Tree model.
@@ -98,9 +100,10 @@ Accuracy: 0.8938
     weighted avg       0.89      0.89      0.89       320
 
 Decision Tree Confusion Matrix:
-Predicted:  Bad  Good
-Actual: Bad   257    16
-       Good    18    29
+
+    Predicted:    Bad  Good
+    Actual: Bad   257    16
+           Good    18    29
 
 ### Results (Random Forest Model after Feature Engineering)
 Random Forest Accuracy: 0.9000
@@ -115,9 +118,10 @@ Random Forest Accuracy: 0.9000
     weighted avg       0.89      0.90      0.89       320
 
 Random Forest Confusion Matrix:
-Predicted:  Bad  Good
-Actual: Bad   264     9
-       Good    23    24
+
+    Predicted:    Bad  Good
+    Actual: Bad   264     9
+           Good    23    24
 
 ### Conclusion
 - After conducting K-means clustering and Principal Component Analysis (PCA), the Decision Tree model accuracy improved. Even though the Random Forest model remains the same accuracy, it still performs better than the Decision Tree model.
