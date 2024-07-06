@@ -33,14 +33,15 @@
 
 ### Results (Decison Tree Model)
 Accuracy: 0.8719
-Classification Report:
 
-                 precision    recall  f1-score   support
-         Bad       0.92      0.93      0.93       273
-        Good       0.57      0.51      0.54        47
+    Classification Report:
 
-    accuracy                           0.87       320
-    macro avg       0.74      0.72      0.73       320
+                   precision    recall  f1-score   support
+         Bad           0.92      0.93      0.93       273
+        Good           0.57      0.51      0.54        47
+
+    accuracy                               0.87       320
+    macro avg          0.74      0.72      0.73       320
     weighted avg       0.87      0.87      0.87       320
 
 Decision Tree Confusion Matrix:
@@ -51,14 +52,15 @@ Actual: Bad   255    18
 
 ### Results (Random Forest Model)
 Random Forest Accuracy: 0.9000
-Random Forest Classification Report:
 
-                 precision    recall  f1-score   support
-         Bad       0.92      0.97      0.94       273
-        Good       0.73      0.51      0.60        47
+    Random Forest Classification Report:
 
-    accuracy                           0.90       320
-    macro avg       0.82      0.74      0.77       320
+                    precision    recall  f1-score   support
+         Bad           0.92      0.97      0.94       273
+        Good           0.73      0.51      0.60        47
+
+    accuracy                               0.90       320
+    macro avg          0.82      0.74      0.77       320
     weighted avg       0.89      0.90      0.89       320
 
 Random Forest Confusion Matrix:
@@ -84,15 +86,16 @@ This indicates that the Random Forest model performs better overall compared to 
 
 ### Results (Decison Tree Model after Feature Engineering)
 Accuracy: 0.8938
-Classification Report:
-              precision    recall  f1-score   support
 
-         Bad       0.93      0.94      0.94       273
-        Good       0.64      0.62      0.63        47
+    Classification Report:
+
+                    precision    recall  f1-score   support
+         Bad           0.93      0.94      0.94       273
+        Good           0.64      0.62      0.63        47
 
     accuracy                           0.89       320
-   macro avg       0.79      0.78      0.78       320
-weighted avg       0.89      0.89      0.89       320
+    macro avg          0.79      0.78      0.78       320
+    weighted avg       0.89      0.89      0.89       320
 
 Decision Tree Confusion Matrix:
 Predicted:  Bad  Good
@@ -101,15 +104,15 @@ Actual: Bad   257    16
 
 ### Results (Random Forest Model after Feature Engineering)
 Random Forest Accuracy: 0.9000
-Random Forest Classification Report:
-              precision    recall  f1-score   support
 
-         Bad       0.92      0.97      0.94       273
-        Good       0.73      0.51      0.60        47
+    Random Forest Classification Report:
+                    precision    recall  f1-score   support
+         Bad           0.92      0.97      0.94       273
+        Good           0.73      0.51      0.60        47
 
-    accuracy                           0.90       320
-   macro avg       0.82      0.74      0.77       320
-weighted avg       0.89      0.90      0.89       320
+    accuracy                               0.90       320
+    macro avg          0.82      0.74      0.77       320
+    weighted avg       0.89      0.90      0.89       320
 
 Random Forest Confusion Matrix:
 Predicted:  Bad  Good
